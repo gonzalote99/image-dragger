@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: antiquewhite;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 10px 10px;
+
+}
+
+
+.imgBox {
+  background-image: url('https://raw.githubusercontent.com/arkalsekar/JS_Projects/main/Image_Dragger/icon.png');
+  display: block;
+  width: 155px;
+  height: 155px;
+  background-color: aquamarine;
+}
+
+
+.whiteBox {
+  display: inline-block;
+  height: 155px;
+  width: 155px;
+  margin: 10px;
+  background-color: white;
+  border: 3px black solid ;
+}
+
+
+.hold {
+  border: solid red 4px;
+}
+
+.dashed {
+  background: rgb(214, 206, 206);
+  border-style: dashed;
+}
+
+.hide {
+  display: none;
+}
